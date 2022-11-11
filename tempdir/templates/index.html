@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>MAPQUEST API</title>
+    <link rel = "stylesheet" href="/static/style.css"/>
+</head>
+<body>
+    <div class="container">
+      <br><br>
+        <p style="text-align:center; font-size:50px;"><b>{{ dir_html }}</b></p>
+        <div class="wrapper" style = "background-color: rgb(141, 141, 67); border-style: solid;border-color: rgb(40, 209, 209); width: 600px; margin-left:auto; margin-right:auto; text-align:center;">
+          <div class="card-body">
+
+            <p style="text-align:center; font-size:25px;">Directions:<b> {{ dir_html }}</b></p>
+            <p style="text-align:center; font-size:25px;">Route Type:<b> {{ routeT_html }}</b></p>
+            <p style="text-align:center; font-size:25px;">Trip Duration:<b> {{ tripD_html }}</b></p>
+            <p style="text-align:center; font-size:25px;">Kilometers:<b> {{ km_html }}</b></p>
+            <p style="text-align:center; font-size:25px;">Are there Toll Roads ahead?:<b> {{ tolls_html }}</b></p>
+            <p style="text-align:center; font-size:25px;">Will there be unpaved roads?:<b> {{ pavedRoads_html }}</b></p>
+            <p style="text-align:center; font-size:25px;">Are there any highways?:<b> {{ highways_html }}</b></p>
+          </div>
+        </div>  
+    </div>
+</body>
+</html
